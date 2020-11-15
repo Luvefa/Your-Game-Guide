@@ -3,9 +3,17 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import ScrollToTop from "./component/scrollToTop";
 
 import { Home } from "./views/home";
-import { Demo } from "./views/demo";
-import { Single } from "./views/single";
+import { Header } from "./component/Header";
+import { LoginForm } from "./component/LoginForm";
+import { Gallery } from "./views/Gallery";
+import { Action } from "./views/Action";
+import { Sport } from "./views/Sport";
+import { Racing } from "./views/Racing";
+import { Shooter } from "./views/Shooter";
+
+import { Login } from "./views/Login";
 import injectContext from "./store/appContext";
+import { GalleryProfile } from "./component/GalleryProfile";
 
 import { Navbar } from "./component/navbar";
 import { Footer } from "./component/footer";
@@ -21,21 +29,40 @@ const Layout = () => {
 			<BrowserRouter basename={basename}>
 				<ScrollToTop>
 					<Navbar />
+					{/* <Header /> */}
 					<Switch>
 						<Route exact path="/">
 							<Home />
+							<Footer />
 						</Route>
-						<Route exact path="/demo">
-							<Demo />
+						<Route exact path="/Gallery">
+							<Gallery />
+							<Footer />
 						</Route>
-						<Route exact path="/single/:theid">
-							<Single />
+						<Route exact path="/Action">
+							<Action />
+						</Route>
+						<Route exact path="/Sport">
+							<Sport />
+						</Route>
+						<Route exact path="/Racing">
+							<Racing />
+						</Route>
+						<Route exact path="/Shooter">
+							<Shooter />
+						</Route>
+						<Route exact path="/GalleryProfile/:id">
+							{/* <Header /> */}
+							<GalleryProfile />
+						</Route>
+
+						<Route exact path="/About">
+							<Login />
 						</Route>
 						<Route>
 							<h1>Not found!</h1>
 						</Route>
 					</Switch>
-					<Footer />
 				</ScrollToTop>
 			</BrowserRouter>
 		</div>
