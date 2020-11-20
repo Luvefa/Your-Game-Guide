@@ -7,7 +7,8 @@ export const Home = () => (
 		<div className="container">
 			<br />
 			<br />
-			<div className="buttons text-center">
+
+			<ul className="nav justify-content-center">
 				<Link
 					className=" fill"
 					to="/Action/"
@@ -81,40 +82,35 @@ export const Home = () => (
 					}}>
 					All Games
 				</Link>
-			</div>
+			</ul>
+		</div>
+		<div className="wrapper">
+			<img src="https://atorredecontrole.com.br/wp-content/uploads/2020/10/console-playstation5-2.png" />
 		</div>
 		<div className="text-center mt-5" style={{ color: "white" }}>
-			<div className="wrapper">
-				<h1>HOME PAGE</h1>
-				<iframe
-					src="https://www.youtube.com/embed/CQKvhoe15M4"
-					frameBorder="0"
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-					style={{ width: "40%", height: "300px", border: "0" }}
-					allowFullScreen
-				/>
+			<h1>Top 20 Upcoming Games of 2020 </h1>
+			<br />
+			<div className="auto-resizable-iframe">
+				<div>
+					<iframe frameBorder="0" allowFullScreen="" src="https://www.youtube.com/embed/CQKvhoe15M4" />
+				</div>
 			</div>
-			<div className="wrapper">
-				<h1>HOME PAGE</h1>
-				<iframe
-					src="https://www.youtube.com/embed/RkC0l4iekYo"
-					frameBorder="0"
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-					style={{ width: "40%", height: "300px", border: "0" }}
-					allowFullScreen
-				/>
+			<h1>Top 25 NEW Single Player Games of 2020</h1>
+			<br />
+			<div className="auto-resizable-iframe">
+				<div>
+					<iframe frameBorder="0" allowFullScreen="" src="https://www.youtube.com/embed/8gyd3bSNE8Q" />
+				</div>
 			</div>
-			<div className="wrapper">
-				<h1>HOME PAGE</h1>
-				<iframe
-					src="https://www.youtube.com/embed/W78jqH6skjI?start=10"
-					frameBorder="0"
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-					style={{ width: "40%", height: "300px", border: "0" }}
-					allowFullScreen
-				/>
+			<h1>Top 20 NEW Third Person Games of 2020</h1>
+			<br />
+			<div className="auto-resizable-iframe">
+				<div>
+					<iframe frameBorder="0" allowFullScreen="" src="https://www.youtube.com/embed/HwV12XfCnPg" />
+				</div>
 			</div>
 		</div>
+		<br />
 		<br />
 	</div>
 );

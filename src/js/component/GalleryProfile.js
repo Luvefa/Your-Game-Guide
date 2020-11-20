@@ -10,7 +10,8 @@ export function GalleryProfile() {
 	let history = useHistory();
 
 	let gallery = actions.getGallery(params.id);
-	console.log(gallery);
+	// console.log(gallery);
+	let content = "Game Not Found";
 
 	return (
 		<div className="container">
@@ -29,7 +30,15 @@ export function GalleryProfile() {
 					/>
 					<div className="row">
 						{/* margin: "auto ",  */}
-						<div className="card-body col-6" style={{ color: "white" }}>
+						<div
+							className="card-body col-6"
+							style={{
+								color: "white",
+								maxWidth: "none",
+								width: "50%",
+								placeContent: "space-between",
+								justifyContent: "center"
+							}}>
 							<h5 className="card-title">
 								<strong>{gallery.name}</strong>
 							</h5>
@@ -53,18 +62,25 @@ export function GalleryProfile() {
 							</p>
 							<p className="card-text">{gallery.desc}</p>
 						</div>
-						<div className="col-6">
-							<iframe
-								src={gallery.video}
-								frameBorder="0"
-								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-								style={{ width: 500, height: 250 }}
-								allowFullScreen
-							/>
-						</div>
+						{/* <div className="col-6"> */}
+						<iframe
+							src={gallery.video}
+							frameBorder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+							style={{
+								width: 500,
+								height: 250,
+								marginRight: "20px",
+								marginLeft: "20px",
+								marginTop: "20px"
+							}}
+							allowFullScreen
+						/>
+						{/* </div> */}
 					</div>
 				</div>
 			</div>
 		</div>
 	);
+	return <div className="text-center mt-5">{content}</div>;
 }

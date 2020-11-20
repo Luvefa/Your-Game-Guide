@@ -6,7 +6,7 @@ import "../../styles/home.scss";
 
 export function Sport() {
 	const { store, actions } = useContext(Context);
-	console.log(actions.getSports());
+	// console.log(actions.getSports());
 
 	// if (store.gallerys.length == 0) {
 	// 	test = "nothing to show";

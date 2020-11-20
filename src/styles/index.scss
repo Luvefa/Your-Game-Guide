@@ -132,10 +132,12 @@ body{
     //   background-color: #edb704;
       background-image: linear-gradient(to right, #FFCE00 50%, #FFCE00 50%, #FE4880);
       color: #fff;
+      padding: 0;
     
   }
   .row {
       margin: 0;
+      justify-content: center;
   }
 
   .navbar a{
@@ -158,4 +160,6 @@ body{
      background-image: linear-gradient(to right, #FFCE00 50%, #FFCE00 50%, #FE4880);
 }
 
-
+.container-fluid{
+    padding: 0;
+}

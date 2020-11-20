@@ -4,7 +4,7 @@ import IMG from "../../img/IMG.png";
 
 export const Navbar = () => {
 	return (
-		<div className="container">
+		<div className="container-fluid">
 			<nav
 				className="navbar navbar-expand-lg "
 				style={{ backgroundColor: "#edb704", textShadow: "2px 2px 5px black" }}>

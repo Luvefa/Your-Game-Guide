@@ -11,7 +11,7 @@ export function Header(props) {
 	let history = useHistory();
 
 	let gallery = actions.getGallery(params.id);
-	console.log(gallery);
+	// console.log(gallery);
 	return (
 		<div className="container">
 			<div className="jumbotron jumbotron-fluid" style={{ margin: 0, backgroundColor: "#047aed" }}>

@@ -18,17 +18,17 @@ export function Login() {
 	const [error, setError] = useState("");
 
 	const Login = details => {
-		console.log(details);
+		// console.log(details);
 
 		if (details.email == adminUser.email && details.password == adminUser.password) {
-			console.log("Logged in");
+			// console.log("Logged in");
 
 			setUser({
 				name: details.name,
 				email: details.email
 			});
 		} else {
-			console.log("Details do not match!");
+			// console.log("Details do not match!");
 			setError("Details do not match!");
 		}
 	};

@@ -6,7 +6,7 @@ import "../../styles/home.scss";
 
 export function Racing() {
 	const { store, actions } = useContext(Context);
-	console.log(actions.getRacings());
+	// console.log(actions.getRacings());
 
 	// if (store.gallerys.length == 0) {
 	// 	test = "nothing to show";
@@ -22,9 +22,8 @@ export function Racing() {
 					))}
 				</div>
 			</div>
-			<br />
 		</div>
 	);
 }
-// return <div className="col text-center">{test}</div>;
-// }
+/* // return <div className="col text-center">{test}</div>;
+// } */

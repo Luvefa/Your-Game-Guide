@@ -6,7 +6,7 @@ import "../../styles/home.scss";
 
 export function Shooter() {
 	const { store, actions } = useContext(Context);
-	console.log(actions.getShooters());
+	// console.log(actions.getShooters());
 
 	// if (store.gallerys.length == 0) {
 	// 	test = "nothing to show";
