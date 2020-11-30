@@ -43,26 +43,24 @@ export function GalleryProfile() {
 								<strong>{gallery.name}</strong>
 							</h5>
 							<p className="card-text">
-								<strong>
-									Console:
-									{gallery.console}
-								</strong>{" "}
+								Console:
+								{gallery.console}
 							</p>
 							<p className="card-text">
-								<strong>
-									Genre:
-									{gallery.genre}
-								</strong>{" "}
+								Genre:
+								{gallery.genre}
 							</p>
 							<p className="card-text">
-								<strong>Publisher:</strong> {gallery.publisher}
+								Publisher:
+								{gallery.publisher}
 							</p>
 							<p className="card-text">
-								<strong>Rating:</strong> {gallery.ratings}
+								Rating:
+								{gallery.ratings}
 							</p>
 							<p className="card-text">{gallery.desc}</p>
 						</div>
-						{/* <div className="col-6"> */}
+
 						<iframe
 							src={gallery.video}
 							frameBorder="0"
@@ -76,7 +74,6 @@ export function GalleryProfile() {
 							}}
 							allowFullScreen
 						/>
-						{/* </div> */}
 					</div>
 				</div>
 			</div>

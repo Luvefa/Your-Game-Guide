@@ -14,8 +14,13 @@ export function Header(props) {
 	// console.log(gallery);
 	return (
 		<div className="container">
-			<div className="jumbotron jumbotron-fluid" style={{ margin: 0, backgroundColor: "#047aed" }}>
+			<div className="jumbotron jumbotron-fluid" style={{ margin: 0, backgroundColor: "black" }}>
 				{/* <img src={gallery.photo} className="card-img-top" alt="..." /> */}
+				<h4>
+					text paragraph, text paragraph, text paragraph, text paragraph, text paragraph, text paragraph, text
+					paragraph, text paragraph, text paragraph, text paragraph, text paragraph,text paragraph, text
+					paragraph, text paragraph, text paragraph,{" "}
+				</h4>
 			</div>
 		</div>
 	);

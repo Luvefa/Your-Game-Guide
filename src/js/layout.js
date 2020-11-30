@@ -1,17 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import ScrollToTop from "./component/scrollToTop";
 
 import { Home } from "./views/home";
+
 import { Header } from "./component/Header";
-import { LoginForm } from "./component/LoginForm";
+// import { LoginForm } from "./component/LoginForm";
 import { Gallery } from "./views/Gallery";
 import { Action } from "./views/Action";
 import { Sport } from "./views/Sport";
 import { Racing } from "./views/Racing";
 import { Shooter } from "./views/Shooter";
 
-import { Login } from "./views/Login";
+// import { Login } from "./views/Login";
+import { Signup } from "./views/Signup";
+import { About as LoginPage } from "./views/About";
 import injectContext from "./store/appContext";
 import { GalleryProfile } from "./component/GalleryProfile";
 
@@ -24,18 +27,22 @@ const Layout = () => {
 	// you can set the basename on the .env file located at the root of this project, E.g: BASENAME=/react-hello-webapp/
 	const basename = process.env.BASENAME || "";
 
+	const [loggedIn, setLoggedIn] = useState(sessionStorage.getItem("loggedIn"));
+	// console.log(sessionStorage);
+
 	return (
 		<div className="container-fluid">
 			<BrowserRouter basename={basename}>
 				<ScrollToTop>
-					<Navbar />
-					{/* <Header /> */}
+					<Navbar isAuth={loggedIn} />
+
 					<Switch>
 						<Route exact path="/">
 							<Home />
 
 							<Footer />
 						</Route>
+
 						<Route exact path="/Gallery">
 							<Gallery />
 							<Footer />
@@ -53,12 +60,13 @@ const Layout = () => {
 							<Shooter />
 						</Route>
 						<Route exact path="/GalleryProfile/:id">
-							{/* <Header /> */}
 							<GalleryProfile />
 						</Route>
-
+						<Route exact path="/Signup">
+							<Signup />
+						</Route>
 						<Route exact path="/About">
-							<Login />
+							<LoginPage />
 						</Route>
 						<Route>
 							<h1>Not found!</h1>

@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { Footer } from "../component/footer.js";
 //import PropTypes from "prop-types";
 import { LoginForm } from "../component/LoginForm.js";
-
+import { Redirect } from "react-router-dom";
 import "../../styles/home.scss";
 
 export function Login() {
@@ -16,17 +16,19 @@ export function Login() {
 
 	const [user, setUser] = useState({ name: "", email: "" });
 	const [error, setError] = useState("");
+	const [redirect, setRedirect] = useState(false);
 
 	const Login = details => {
-		// console.log(details);
+		console.log(details);
 
 		if (details.email == adminUser.email && details.password == adminUser.password) {
-			// console.log("Logged in");
+			console.log("Logged in");
 
 			setUser({
 				name: details.name,
 				email: details.email
 			});
+			setRedirect(true);
 		} else {
 			// console.log("Details do not match!");
 			setError("Details do not match!");
@@ -36,6 +38,12 @@ export function Login() {
 	const Logout = () => {
 		setUser({ name: "", email: "" });
 	};
+	let renderRedirect = () => {
+		if (redirect) {
+			return <Redirect to="/Gallery" />;
+		}
+	};
+
 	return (
 		<div className="container">
 			{/* <Header /> */}
@@ -51,6 +59,7 @@ export function Login() {
 					<LoginForm Login={Login} error={error} />
 				)}
 			</div>
+			{renderRedirect()}
 			<Footer />
 		</div>
 	);

@@ -54,7 +54,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 				},
 				{
 					id: 27,
-					name: " Cyberpunk 2077",
+					name: "Cyberpunk 2077",
 					genre: " shooter",
 					publisher: "Publisher:WB Games",
 					ratings: " Mature ",
@@ -914,7 +914,8 @@ const getState = ({ getStore, getActions, setStore }) => {
 						"In a world where freestyle and risk-taking dominate, impose your riding style all around the world. Impress your opponents and win races with class!Moto Racer 4 is racing game you can play on asphalt or dirt in single or multiplayer mode (up to ten players).Master drifting, wheelies, sharp turns and other techniques to earn a place on the podium!Customize and upgrade your bike! Progress through Moto Racer 4 and take in the stunning environments.From the United States to the Asia by way of the desert, Moto Racer 4 takes you through perilous, breathtaking courses at 100 miles an hour.",
 					video: "https://www.youtube.com/embed/torYjTerlso"
 				}
-			]
+			],
+			loggedIn: false
 		},
 		actions: {
 			// Use getActions to call a function within a fuction
