@@ -10,7 +10,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 					ratings: " Mature ",
 					photo:
 						" https://www.denofgeek.com/wp-content/uploads/2020/09/call-of-duty-black-ops-cold-war-beta-dates.jpg?fit=1920%2C1080 ",
-					console: " PS5 ",
+					console: " PS5",
 					desc:
 						"The iconic Black Ops series is back with Call of Duty®: Black Ops Cold War - the direct sequel to the original and fan-favorite Call of Duty®: Black Ops. Black Ops Cold War will drop fans into the depths of the Cold War’s volatile geopolitical battle of the early 1980s. Nothing is ever as it seems in a gripping single-player Campaign, where players will come face-to-face with historical figures and hard truths, as they battle around the globe through iconic locales like East Berlin, Vietnam, Turkey, Soviet KGB headquarters and more. As elite operatives, you will follow the trail of a shadowy figure named Perseus who is on a mission to destabilize the global balance of power and change the course of history. Descend into the dark center of this global conspiracy alongside iconic characters Woods, Mason and Hudson and a new cast of operatives attempting to stop a plot decades in the making.",
 					video: "https://www.youtube.com/embed/aTS9n_m7TW0"
@@ -94,7 +94,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 					genre: " Shooter",
 					publisher: "Ubisoft",
 					ratings: " ",
-					photo: "https://ewedit.files.wordpress.com/2018/12/sawlauncher_3840x2160_gold_esrb.jpg",
+					photo: "https://cdn.mos.cms.futurecdn.net/VZQPMnwdKYJM4LJe2VZsLG.jpg",
 					console: " PC, PS4, PS5, Xbox, OneXbox, Series X",
 					desc:
 						"Welcome to Yara, a tropical paradise frozen in time. As the dictator of Yara, Anton Castillo is intent on restoring his nation back to its former glory by any means, with his son, Diego, following in his bloody footsteps. Their oppressive rule has ignited a revolution.",
@@ -106,8 +106,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 					genre: " Shooter",
 					publisher: "Square Enix",
 					ratings: " Mature",
-					photo:
-						"https://cdn-prod.scalefast.com/public/assets/img/resized/squareenix-store-v3/f64f378417b7c2920553f0561f5c9010_1920_KR.jpg",
+					photo: "https://cdn.pressstart.com.au/wp-content/uploads/2020/02/Outriders-Preview-770x433.jpg",
 					console: " PC, PS4, PS5, Xbox, OneXbox, Series X",
 					desc:
 						"Outriders is an upcoming third-person shooter developed by People Can Fly and published by Square Enix. It is set to be released on February 2, 2021 for Microsoft Windows, PlayStation 4, PlayStation 5, Xbox One, Xbox Series X/S. It will also release on Stadia later in 2021.",
@@ -282,14 +281,14 @@ const getState = ({ getStore, getActions, setStore }) => {
 					id: 22,
 					name: " FIFA21 ",
 					genre: " Sports",
-					publisher: " Ea Sports ",
+					publisher: " EA Sports ",
 					ratings: " Everyone ",
 					photo:
 						" https://image-cdn.essentiallysports.com/wp-content/uploads/20201006215630/maxresdefault-15-5.jpg",
 					console: " PC, PS4, PS5, Switch, Xbox, OneXbox, Series X",
 					desc:
 						"Win as one in EA SPORTS FIFA 21, powered by Frostbite. Whether it's on the streets or in the stadium, FIFA 21 has more ways to play than ever before - including the UEFA Champions League and CONMEBOL Libertadores.",
-					video: "  "
+					video: "https://www.youtube.com/embed/r0FmOn-yXJg "
 				},
 				{
 					id: 23,
@@ -349,7 +348,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 					genre: " Action",
 					publisher: "Sony Interactive Entertainment",
 					ratings: "Teen",
-					photo:
+					photo1:
 						"https://www.lifewire.com/thmb/QMDxkznPa0Dxz-rzviDgchVByRE=/3840x2160/filters:no_upscale():max_bytes(150000):strip_icc()/miles-morales-the-man-the-spider-man-the-game-5083891-a59a04b17da746a3a85fda077ac513f4.jpg",
 					console: " PS5, PS4",
 					video: "https://www.youtube.com/embed/NTunTURbyUU",
@@ -358,11 +357,11 @@ const getState = ({ getStore, getActions, setStore }) => {
 				},
 				{
 					id: 2,
-					name: " Assassins Creed Valhara ",
+					name: " Assassins Creed Valhalla ",
 					genre: " Action",
 					publisher: " Ubisoft Montreal ",
 					ratings: " Mature 17+ ",
-					photo:
+					photo1:
 						" https://www.capsulecomputers.com.au/wp-content/uploads/2020/09/Assassins-Creed-Valhalla-Basim-Eivor-Artwork-1024x576.jpg",
 					console: " PS5 ",
 					desc:
@@ -376,7 +375,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 					publisher: "Sony Interactive Entertainment",
 					ratings: " Mature Everyone ",
 					console: " PS5, PS4 ",
-					photo: "https://images.pushsquare.com/cdc476d48c95b/1280x720.jpg",
+					photo1: "https://images.pushsquare.com/cdc476d48c95b/1280x720.jpg",
 					desc:
 						"A Big Adventure is an upcoming platform game developed by Sumo Digital and published by Sony Interactive Entertainment for the PlayStation 5, part of the LittleBigPlanet series. It follows Sackboy and features 3D platforming as opposed to 2.5D in previous entries. It was announced at the PlayStation 5 reveal event in June 2020.",
 					video: " https://www.youtube.com/embed/ZOk3fj5ujNM "
@@ -387,7 +386,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 					genre: " Action",
 					publisher: " PlayStation Studios",
 					ratings: " Mature",
-					photo: "https://cdn.pressstart.com.au/wp-content/uploads/2020/09/Demons-Souls-Remake-770x433.jpg",
+					photo1: "https://cdn.pressstart.com.au/wp-content/uploads/2020/09/Demons-Souls-Remake-770x433.jpg",
 					console: " PS5",
 					desc:
 						"Demons Souls is an action role-playing game developed by FromSoftware for the PlayStation 3 under the supervision of SIE Japan Studio. It was published in Japan by Sony Computer Entertainment in February 2009, in North America by Atlus USA in October 2009, and in PAL territories by Namco Bandai Games in June 2010. The game is referred to as a spiritual successor to FromSoftwares Kings Field series.",
@@ -399,7 +398,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 					genre: " Action",
 					publisher: " Square Enix",
 					ratings: " Teen",
-					photo: "https://www.justpushstart.com/wp-content/uploads/2020/06/avengers_card_3.jpg",
+					photo1: "https://www.justpushstart.com/wp-content/uploads/2020/06/avengers_card_3.jpg",
 					console: " PS5, Xbox",
 					desc:
 						"Marvels Avengers is a 2020 action role-playing brawler video game co-developed by Crystal Dynamics and published by Square Enix. Based on the Marvel Comics superhero team the Avengers, the game is mainly inspired by the Marvel Cinematic Universes iteration of the group, but also incorporates elements from the team's long-running comic book mythology. The plot follows Inhuman teenager Kamala Khan, who gained superpowers after exposure to Terrigen Mist during A-Day, a celebratory day for the Avengers until a tragedy resulted in death and destruction. Blamed for the tragedy, the Avengers disbanded, allowing the science corporation A.I.M. to take their place. Five years later, when A.I.M. threatens to end the world of superpowered individuals, Kamala embarks on a quest to reassemble Earth's Mightiest Heroes so that they could save the world from peril once more.",
@@ -411,7 +410,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 					genre: " Action",
 					publisher: " Ubisoft",
 					ratings: " Teen",
-					photo: "https://gameranx.com/wp-content/uploads/2019/09/Watch-Dogs-Legion-4-2-1024x576.jpg",
+					photo1: "https://gameranx.com/wp-content/uploads/2019/09/Watch-Dogs-Legion-4-2-1024x576.jpg",
 					console: " PS5, Xbox ",
 					desc:
 						"Watch Dogs is receiving a third main installment to the franchise next year. Ubisoft is taking players to London with Dedsec hoping to end a new powerful regime hitting the United Kingdom but there is a slight change up from previous Watch Dogs installments. With Watch Dogs: Legion players are not going to focus on a single character protagonist but instead a wide variety of potential NPCs. Instead of having a single player that is capable of every skill, the game puts a focus on recruiting NPCs that may have a useful attribute towards a mission. During E3 2019, we got a look at that with a mission regarding players having to seek out a drones expert.",
@@ -423,7 +422,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 					genre: " Action",
 					publisher: " Square Enix",
 					ratings: " TeMature Everyone",
-					photo: "https://gameranx.com/wp-content/uploads/2018/03/Final-Fantasy-VII-Remake.png",
+					photo1: "https://gameranx.com/wp-content/uploads/2018/03/Final-Fantasy-VII-Remake.png",
 					console: " PS4 ",
 					desc:
 						"The Final Fantasy series has been around for decades and over the years there have been a few notable titles that stood out among the rest. One of those video game titles is Final Fantasy VII which is a game that released originally on the PlayStation back in 1997. Since its release, there have been vocal fans pleading to Square Enix to go back and remake the video game title for the current generation platforms. After years of requests, the remake is finally coming to the marketplace for the PlayStation 4 in March of 2020. Overall, it looks like the same storyline is intact with Cloud Strife joining with an eco-terrorist group known as Avalanche as they battle against the corrupt Shinra megacorporation.",
@@ -435,7 +434,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 					genre: " Action",
 					publisher: " Sony Interactive Entertainment",
 					ratings: " TeMature Everyone",
-					photo: "https://gameranx.com/wp-content/uploads/2019/09/The-Last-of-Us-Part-2.jpg",
+					photo1: "https://gameranx.com/wp-content/uploads/2019/09/The-Last-of-Us-Part-2.jpg",
 					console: " PS4 ",
 					desc:
 						"A staple franchise for the Sony PlayStation 4, The Last of Us, is receiving a new installment. Set years into the future where Ellie has gone from a child to a young adult and is living life a bit more normally considering the overall pandemic. Even though there is still the growing threat of the zombie-like virus that is turning into mindless hostile creatures, it seems that the main threat in this world is opposing human groups. The storyline for the sequel is more or less focused on a cult-like group though we’re still relatively in the dark on their motives.",
@@ -447,14 +446,13 @@ const getState = ({ getStore, getActions, setStore }) => {
 					genre: " Action",
 					publisher: " Sony Interactive Entertainment",
 					ratings: " Mature ",
-					photo: "http://www.whatsageek.com/wp-content/uploads/2015/05/bloodbornelogo.jpg",
+					photo1: "http://www.whatsageek.com/wp-content/uploads/2015/05/bloodbornelogo.jpg",
 					console: " PS5, PS4 ",
 					desc:
 						"Bloodborne is an action role-playing game developed by FromSoftware and published by Sony Computer Entertainment for the PlayStation 4. It was released worldwide in March 2015. Bloodborne follows the player's character, a Hunter, through the decrepit Gothic, Victorian era–inspired city of Yharnam, whose inhabitants have been afflicted with an abnormal blood-borne disease.",
 					video: "https://www.youtube.com/embed/G203e1HhixY"
 				}
 			],
-
 			gallerys: [
 				{
 					id: 1,
@@ -462,21 +460,28 @@ const getState = ({ getStore, getActions, setStore }) => {
 					genre: " Action",
 					publisher: "Sony Interactive Entertainment",
 					ratings: "Teen",
-					photo:
+					photo1:
 						"https://www.lifewire.com/thmb/QMDxkznPa0Dxz-rzviDgchVByRE=/3840x2160/filters:no_upscale():max_bytes(150000):strip_icc()/miles-morales-the-man-the-spider-man-the-game-5083891-a59a04b17da746a3a85fda077ac513f4.jpg",
+					photo2: "https://cdn.mos.cms.futurecdn.net/tcSc5iARkqDC5fh3nMAmy4.png",
+					photo3: "https://cdn3.dualshockers.com/wp-content/uploads/2019/01/Marvels-Spider-Man.jpg",
+
 					console: " PS5, PS4",
 					video: "https://www.youtube.com/embed/NTunTURbyUU",
 					desc:
-						"In the latest adventure in the Marvel’s Spider-Man universe,teenager Miles Morales is adjusting to his new home while following in the footsteps of his mentor, Peter Parker, as a new Spider-Man. But when a fierce power struggle threatens to destroy his new home, the aspiring hero realizes that with great power, there must also come great responsibility. To save all of Marvel’s New York, Miles must take up the mantle of Spider-Man and own it."
+						"In the latest adventure in the Marvel’s Spider-Man universe,teenager Miles Morales is adjusting to his new home while following in the footsteps of his mentor, Peter Parker, as a new Spider-Man. But when a fierce power struggle threatens to destroy his new home, the aspiring hero realizes that with great power, there must also come great responsibility. To save all of Marvel’s New York, Miles must take up the mantle of Spider-Man and own it.",
+					likes: 0,
+					dislikes: 0
 				},
 				{
 					id: 2,
-					name: " Assassins Creed Valhara ",
+					name: " Assassins Creed Valhalla ",
 					genre: " Action",
 					publisher: " Ubisoft Montreal ",
 					ratings: " Mature 17+ ",
-					photo:
+					photo1:
 						" https://www.capsulecomputers.com.au/wp-content/uploads/2020/09/Assassins-Creed-Valhalla-Basim-Eivor-Artwork-1024x576.jpg",
+					photo2: "https://gamingbolt.com/wp-content/uploads/2020/04/Assassins-Creed-Valhalla-1.jpg",
+					photo3: "https://gamingbolt.com/wp-content/uploads/2020/05/assassins-creed-valhalla-.jpg",
 					console: " PS5 ",
 					desc:
 						"Interact with history like never before and dive deeper intu Assassin’s Creed Odyssey with Story Creator Mode, which allows you to create your own narratives in Ancient Greece. Freedom of creativity is key, and with a quest editor and branching dialogue system, the only limit is your imagination. Play other users’ creations and experience new narratives told by the community themselves.",
@@ -484,12 +489,15 @@ const getState = ({ getStore, getActions, setStore }) => {
 				},
 				{
 					id: 3,
-					name: " Sackboy ",
+					name: " Sackboy A Big Adventure",
 					genre: " Action",
 					publisher: "Sony Interactive Entertainment",
 					ratings: " Mature Everyone ",
 					console: " PS5, PS4 ",
-					photo: "https://images.pushsquare.com/cdc476d48c95b/1280x720.jpg",
+					photo1: "https://images.pushsquare.com/cdc476d48c95b/1280x720.jpg",
+					photo2:
+						"https://d1fs8ljxwyzba6.cloudfront.net/assets/article/2020/06/11/sackboy-a-big-adventure-ps5_feature.jpg",
+					photo3: "https://i.ytimg.com/vi/R8GpZano5e8/maxresdefault.jpg",
 					desc:
 						"A Big Adventure is an upcoming platform game developed by Sumo Digital and published by Sony Interactive Entertainment for the PlayStation 5, part of the LittleBigPlanet series. It follows Sackboy and features 3D platforming as opposed to 2.5D in previous entries. It was announced at the PlayStation 5 reveal event in June 2020.",
 					video: " https://www.youtube.com/embed/ZOk3fj5ujNM "
@@ -500,7 +508,9 @@ const getState = ({ getStore, getActions, setStore }) => {
 					genre: " Action",
 					publisher: " PlayStation Studios",
 					ratings: " Mature",
-					photo: "https://cdn.pressstart.com.au/wp-content/uploads/2020/09/Demons-Souls-Remake-770x433.jpg",
+					photo1: "https://cdn.pressstart.com.au/wp-content/uploads/2020/09/Demons-Souls-Remake-770x433.jpg",
+					photo2: "https://assets1.ignimgs.com/2020/09/29/demons-souls-copy-1601406918253.jpg?width=1280",
+					photo3: "https://images.pushsquare.com/fd513b92bb91f/demons-souls-ps5.original.jpg",
 					console: " PS5",
 					desc:
 						"Demons Souls is an action role-playing game developed by FromSoftware for the PlayStation 3 under the supervision of SIE Japan Studio. It was published in Japan by Sony Computer Entertainment in February 2009, in North America by Atlus USA in October 2009, and in PAL territories by Namco Bandai Games in June 2010. The game is referred to as a spiritual successor to FromSoftwares Kings Field series.",
@@ -512,7 +522,12 @@ const getState = ({ getStore, getActions, setStore }) => {
 					genre: " Action",
 					publisher: " Square Enix",
 					ratings: " Teen",
-					photo: "https://www.justpushstart.com/wp-content/uploads/2020/06/avengers_card_3.jpg",
+					photo1:
+						"https://cnet2.cbsistatic.com/img/-RIhbz-yxF6hNzlSf0UQz9IaZSk=/1092x0/2019/06/11/02e36daa-1122-4056-81d0-0a1fd040fdf6/avenger-03.jpg",
+					photo2:
+						"https://cdn.collider.com/wp-content/uploads/2020/08/marvels-avengers-beta-screenshot-1-scaled.jpg",
+					photo3:
+						"https://assets.rpgsite.net/images/images/000/088/757/original/Marvels_Avengers_OnceAnAvenger_FINAL-2.jpg",
 					console: " PS5, Xbox",
 					desc:
 						"Marvels Avengers is a 2020 action role-playing brawler video game co-developed by Crystal Dynamics and published by Square Enix. Based on the Marvel Comics superhero team the Avengers, the game is mainly inspired by the Marvel Cinematic Universes iteration of the group, but also incorporates elements from the team's long-running comic book mythology. The plot follows Inhuman teenager Kamala Khan, who gained superpowers after exposure to Terrigen Mist during A-Day, a celebratory day for the Avengers until a tragedy resulted in death and destruction. Blamed for the tragedy, the Avengers disbanded, allowing the science corporation A.I.M. to take their place. Five years later, when A.I.M. threatens to end the world of superpowered individuals, Kamala embarks on a quest to reassemble Earth's Mightiest Heroes so that they could save the world from peril once more.",
@@ -520,11 +535,14 @@ const getState = ({ getStore, getActions, setStore }) => {
 				},
 				{
 					id: 18,
-					name: "Watch Dogs: Legion ",
+					name: "Watch Dogs Legion ",
 					genre: " Action",
 					publisher: " Ubisoft",
 					ratings: " Teen",
-					photo: "https://gameranx.com/wp-content/uploads/2019/09/Watch-Dogs-Legion-4-2-1024x576.jpg",
+					photo1: "https://gameranx.com/wp-content/uploads/2019/09/Watch-Dogs-Legion-4-2-1024x576.jpg",
+					photo2:
+						"https://oyster.ignimgs.com/wordpress/stg.ign.com/2019/06/Watch-Dogs-Legion-Albion-street.jpg",
+					photo3: "http://images.gamersyde.com/image_watch_dogs_legion-42365-4246_0006.jpg",
 					console: " PS5, Xbox ",
 					desc:
 						"Watch Dogs is receiving a third main installment to the franchise next year. Ubisoft is taking players to London with Dedsec hoping to end a new powerful regime hitting the United Kingdom but there is a slight change up from previous Watch Dogs installments. With Watch Dogs: Legion players are not going to focus on a single character protagonist but instead a wide variety of potential NPCs. Instead of having a single player that is capable of every skill, the game puts a focus on recruiting NPCs that may have a useful attribute towards a mission. During E3 2019, we got a look at that with a mission regarding players having to seek out a drones expert.",
@@ -536,7 +554,9 @@ const getState = ({ getStore, getActions, setStore }) => {
 					genre: " Action",
 					publisher: " Square Enix",
 					ratings: " TeMature Everyone",
-					photo: "https://gameranx.com/wp-content/uploads/2018/03/Final-Fantasy-VII-Remake.png",
+					photo1: "https://gameranx.com/wp-content/uploads/2018/03/Final-Fantasy-VII-Remake.png",
+					photo2: "https://www.thenerdmag.com/wp-content/uploads/2019/07/Final-Fantasy-VII-Remake.jpeg",
+					photo3: "https://i.ytimg.com/vi/XBDNcT8jul4/maxresdefault.jpg",
 					console: " PS4 ",
 					desc:
 						"The Final Fantasy series has been around for decades and over the years there have been a few notable titles that stood out among the rest. One of those video game titles is Final Fantasy VII which is a game that released originally on the PlayStation back in 1997. Since its release, there have been vocal fans pleading to Square Enix to go back and remake the video game title for the current generation platforms. After years of requests, the remake is finally coming to the marketplace for the PlayStation 4 in March of 2020. Overall, it looks like the same storyline is intact with Cloud Strife joining with an eco-terrorist group known as Avalanche as they battle against the corrupt Shinra megacorporation.",
@@ -548,7 +568,11 @@ const getState = ({ getStore, getActions, setStore }) => {
 					genre: " Action",
 					publisher: " Sony Interactive Entertainment",
 					ratings: " TeMature Everyone",
-					photo: "https://gameranx.com/wp-content/uploads/2019/09/The-Last-of-Us-Part-2.jpg",
+					photo1: "https://gameranx.com/wp-content/uploads/2019/09/The-Last-of-Us-Part-2.jpg",
+					photo2:
+						"https://www.denofgeek.com/wp-content/uploads/2020/06/The-Last-of-Us-Part-2-1.jpg?fit=1280%2C720",
+					photo3:
+						"https://d1lss44hh2trtw.cloudfront.net/assets/article/2020/05/27/the-last-of-us-part-ii-state-of-play-ps4-22-57-screenshot_feature.png",
 					console: " PS4 ",
 					desc:
 						"A staple franchise for the Sony PlayStation 4, The Last of Us, is receiving a new installment. Set years into the future where Ellie has gone from a child to a young adult and is living life a bit more normally considering the overall pandemic. Even though there is still the growing threat of the zombie-like virus that is turning into mindless hostile creatures, it seems that the main threat in this world is opposing human groups. The storyline for the sequel is more or less focused on a cult-like group though we’re still relatively in the dark on their motives.",
@@ -556,16 +580,17 @@ const getState = ({ getStore, getActions, setStore }) => {
 				},
 				{
 					id: 21,
-					name: " Cyberpunk 2077 ",
+					name: " Bloodborne",
 					genre: " Action",
-					publisher: " CD Projekt",
-					ratings: " TeMature Everyone",
-					photo:
-						"https://gameranx.com/wp-content/uploads/2019/05/cyberpunk_2077_gamescom_screen_3-1024x576.jpg",
-					console: " PC, PS4, XBO, Google Stadia ",
+					publisher: " Sony Interactive Entertainment",
+					ratings: " Mature ",
+					photo1: "http://www.whatsageek.com/wp-content/uploads/2015/05/bloodbornelogo.jpg",
+					photo2: "http://cdn.wccftech.com/wp-content/uploads/2015/03/Bloodborne-42.jpg",
+					photo3: "https://cdn.gamer-network.net/2018/usgamer/bloodborne-hemwick-3.jpg",
+					console: " PS5, PS4 ",
 					desc:
-						"Cyberpunk 2077 is easily one of the most anticipated video game titles releasing in 2020. Within Cyberpunk 2077 players are set in a futuristic world, though to be more exact, a dystopia Night City. Big corporations and crime thrive making those who inhabit the area to be tough. That’s where players step into the role of a mercenary name V. You’ll have to handle small jobs and work your street cred up to earn high paying jobs. There’s a lot to do in Night City and the development studio has been stating that the in-game map is dense along with being very lively.",
-					video: "https://www.youtube.com/embed/LembwKDo1Dk"
+						"Bloodborne is an action role-playing game developed by FromSoftware and published by Sony Computer Entertainment for the PlayStation 4. It was released worldwide in March 2015. Bloodborne follows the player's character, a Hunter, through the decrepit Gothic, Victorian era–inspired city of Yharnam, whose inhabitants have been afflicted with an abnormal blood-borne disease.",
+					video: "https://www.youtube.com/embed/G203e1HhixY"
 				},
 				{
 					id: 5,
@@ -573,7 +598,11 @@ const getState = ({ getStore, getActions, setStore }) => {
 					genre: " Sports",
 					publisher: " Visual Concepts",
 					ratings: " Mature Everyone",
-					photo: " https://images.pushsquare.com/screenshots/108613/large.jpg",
+					photo1: " https://images.pushsquare.com/screenshots/108613/large.jpg",
+					photo2:
+						"https://i1.wp.com/redcarpetreporttv.com/wp-content/uploads/2020/08/NBA-2K21-CG-Demo-Kobe-24.jpg?fit=1920%2C1080&ssl=1",
+					photo3:
+						"https://cdn.hiptoro.com/wp-content/uploads/2020/02/NBA-2K21-Release-Date-Features-Basketball-Game-to-Launch-with-Xbox-Series-X-Console.jpg",
 					console: " PS5",
 					desc:
 						" NBA 2K21 is the latest release in the world-renowned, best-selling NBA 2K series. 2K21 leads the charge with next-gen innovations, while continuing to deliver an industry-leading sports video game experience on the current generation of gaming platforms. With extensive improvements upon its best-in-class graphics and gameplay, competitive and community online features, and deep, varied game modes, NBA 2K21 offers one-of-a-kind immersion into all facets of NBA basketball and culture - where Everything is Game.",
@@ -585,8 +614,10 @@ const getState = ({ getStore, getActions, setStore }) => {
 					genre: " Sports ",
 					publisher: " Ubisoft Annecy ",
 					ratings: " Mature Everyone ",
-					photo:
+					photo1:
 						" https://cdn.entertainment-focus.com/wp-content/uploads/2020/09/11001633/RidersRepublic.jpg ",
+					photo2: "https://assets1.ignimgs.com/2020/09/10/untitled-3-1599766735463.jpg?width=1280",
+					photo3: "https://nightwing.stevivor.com/wp-content/uploads/2020/09/Riders-Republic-1.jpg",
 					console: " PS5",
 					desc:
 						" Upgrade to PlayStation 5 Version: Riders Republic PlayStation 4 game on Blu-Ray Disc must be kept inserted in a PlayStation 5 console to play the corresponding Riders Republic PlayStation 5 digital version at no additional cost, when available. Requires a PlayStation 5, the game Blu-Ray Disc, a PlayStation Network registration, additional storage and Broadband internet connection. May incur bandwidth usage fees. Jump into the Riders Republic massive multiplayer playground! Grab your bike, skis, snowboard, or wingsuit and explore an open world sports paradise where the rules are yours to make - or break.",
@@ -598,10 +629,14 @@ const getState = ({ getStore, getActions, setStore }) => {
 					genre: "  Sports ",
 					publisher: " Saber Interactive",
 					ratings: " Mature Everyone",
-					photo: " https://nightwing.stevivor.com/wp-content/uploads/2020/07/wwe-2k-battlegrounds.jpg",
+					photo1: " https://nightwing.stevivor.com/wp-content/uploads/2020/07/wwe-2k-battlegrounds.jpg",
+					photo2:
+						"https://assets1.ignimgs.com/2020/07/08/wwe-2k-bg-kalisto-vs-samoa-joe-1594203101822.jpeg?width=1280",
+					photo3:
+						"https://www.nme.com/wp-content/uploads/2020/09/092220-WWE-2K-Battlegrounds-Stacey-Henley-IMAGE3.jpg",
 					console: " PS5",
 					desc:
-						" The world of WWE is your Battleground with all-new, over the top, in-your-face arcade action as your favorite WWE Superstars and Legends battle it out in. outlandish interactive environments around the world. Compete in your favorite match types with an arsenal of exaggerated maneuvers, special abilities, and devastating power-ups, including steel Cage, Royal rumble, Fatal four way and more, as mauro ranallo and jerry “the King” lawler Call all the mayhem! Are you ready to enter the Battleground?",
+						" The world of WWE is your Battleground with all-new, over the top, in-your-face arcade action as your favorite WWE Superstars and Legends battle it out in. outlandish interactive environments around the world. Compete in your favorite match types with an arsenal of exaggerated maneuvers, special abilities, and devastating power-ups, including steel Cage, Royal rumble, Fatal four way and more, as mauro ranallo and jerry ' the king ' lawler Call all the mayhem! Are you ready to enter the Battleground?",
 					video: " https://www.youtube.com/embed/ujOqTFgFnKQ "
 				},
 				{
@@ -610,7 +645,10 @@ const getState = ({ getStore, getActions, setStore }) => {
 					genre: " Sports",
 					publisher: " Ea Sports ",
 					ratings: " Mature Everyone ",
-					photo: " https://www.dsogaming.com/wp-content/uploads/2020/06/Madden-NFL-21-screenshots-1.jpg",
+					photo1: "https://www.operationsports.com/wp-content/uploads/2020/08/madden-21-em.png",
+					photo2:
+						"https://gamespot1.cbsistatic.com/uploads/original/1575/15759911/3727338-maddennfl21_20200823174455.jpg",
+					photo3: "https://apptrigger.com/files/2016/09/Madden-NFL-17_20160928204903.jpg",
 					console: " PS5 ",
 					desc:
 						" Packed with fresh new features and innovative gameplay enhancements, Madden NFL 21 delivers new levels of ingenuity and control developed to inspire creativity on and off the field.",
@@ -618,16 +656,17 @@ const getState = ({ getStore, getActions, setStore }) => {
 				},
 				{
 					id: 22,
-					name: " FIFA21 ",
+					name: " FIFA 21 ",
 					genre: " Sports",
 					publisher: " Ea Sports ",
 					ratings: " Everyone ",
-					photo:
-						" https://image-cdn.essentiallysports.com/wp-content/uploads/20201006215630/maxresdefault-15-5.jpg",
+					photo1: " https://assets1.ignimgs.com/2020/07/24/fifa-21-blogroll-1595584833813.jpg?width=1280",
+					photo2: "https://media.comicbook.com/2020/07/fifa-21-haaland-1230319-1280x0.jpeg",
+					photo3: "https://realsport101.com/wp-content/uploads/2020/09/fifa-21-felix.jpg",
 					console: " PC, PS4, PS5, Switch, Xbox, OneXbox, Series X",
 					desc:
 						"Win as one in EA SPORTS FIFA 21, powered by Frostbite. Whether it's on the streets or in the stadium, FIFA 21 has more ways to play than ever before - including the UEFA Champions League and CONMEBOL Libertadores.",
-					video: "  "
+					video: "https://www.youtube.com/embed/r0FmOn-yXJg"
 				},
 				{
 					id: 23,
@@ -635,8 +674,11 @@ const getState = ({ getStore, getActions, setStore }) => {
 					genre: " Sports",
 					publisher: " Vicarious Visions",
 					ratings: " Teen ",
-					photo:
+					photo1:
 						"https://assets1.ignimgs.com/2020/05/12/tony-hawks-pro-skater-1-2-preorder-guide-1589307395561.jpg",
+					photo2:
+						"https://www.siliconera.com/wp-content/uploads/2020/05/Tony-Hawks-Pro-Skater-1-and-2-Siliconera-7.jpg",
+					photo3: "https://lwmag.co.za/wp-content/uploads/2020/06/THPS-New-Skater-Announced.jpg",
 					console: " PC, PS4, PS5, Xbox, OneXbox, Series X",
 					desc:
 						"Drop back in with the most iconic skateboarding games ever made. Play Tony Hawk’s Pro Skater & Tony Hawk’s Pro Skater 2 in one epic collection, rebuilt from the ground up in incredible HD. All the pro skaters, levels and tricks are back and fully-remastered, plus more. Break skateboarding boundaries, show off your own style, and be part of the next generation of skaters and creators with Tony Hawk’s Pro Skater 1 + 2.",
@@ -648,7 +690,10 @@ const getState = ({ getStore, getActions, setStore }) => {
 					genre: " Sports",
 					publisher: " 2k Games",
 					ratings: " Teen ",
-					photo: "https://realsport101.com/wp-content/uploads/2020/06/pga-tour-2k21-justin-thomas.jpg",
+					photo1: "https://realsport101.com/wp-content/uploads/2020/06/pga-tour-2k21-justin-thomas.jpg",
+					photo2:
+						"https://assets1.ignimgs.com/thumbs/userUploaded/2020/5/14/pga-tour-2k21-screen5-1589427169369.jpg?width=1280",
+					photo3: "https://i.ytimg.com/vi/DWhp-g9ohL8/maxresdefault.jpg",
 					console: " PC, PS4, PS5, Xbox, OneXbox, Series X",
 					desc:
 						"PGA Tour 2K21 is a sports video game developed by HB Studios and published by 2K Sports for Google Stadia, Microsoft Windows, Nintendo Switch, PlayStation 4 and Xbox One. It's a continuation of The Golf Club franchise integrated with 2K Sports and the second game in the franchise to include a PGA Tour license.",
@@ -660,8 +705,11 @@ const getState = ({ getStore, getActions, setStore }) => {
 					genre: " Sports",
 					publisher: " Electronic Arts",
 					ratings: " Teen ",
-					photo:
+					photo1:
 						"https://www.vgr.com/wp-content/uploads/2020/07/ea-sports-ufc-4-details-leaked-for-console-beta.jpeg",
+					photo2:
+						"http://cdn.us.playstation.com/pscomauth/groups/public/documents/webasset/ps4-game-7082-lower-marq.jpg",
+					photo3: "https://static3.gamespot.com/uploads/original/1179/11799911/3013394-3.jpg",
 					console: " PC, PS4, PS5, Xbox, OneXbox, Series X",
 					desc:
 						"Shape Your Legend in EA SPORTS UFC 4. In EA SPORTS UFC 4, the fighter you become is shaped by your fight style, your achievements, and your personality. No matter how or where you play EA SPORTS UFC 4 puts ‘you’ at the center of every fight.",
@@ -673,7 +721,9 @@ const getState = ({ getStore, getActions, setStore }) => {
 					genre: " Sports",
 					publisher: " Xbox Game Studios",
 					ratings: " Teen ",
-					photo: "http://assets.vg247.com/current/2014/04/Kinect_sports_rivals_6.jpg",
+					photo1: "http://assets.vg247.com/current/2014/04/Kinect_sports_rivals_6.jpg",
+					photo2: "https://assets.vg247.com/current/2013/08/kinect_sports_rivals_06.jpg",
+					photo3: "http://assets.vg247.com/current/2013/08/kinect_sports_rivals_01.jpg",
 					console: " PC, PS4, PS5, Xbox, OneXbox, Series X",
 					desc:
 						"The best-selling Kinect franchise is back, made exclusively for Xbox One. The all-new, unparalleled Kinect technology captures your likeness as a champion and thrusts you into sporting events against friends, rivals and the entire world. Skill matters. Precision is rewarded. Small movements make big impacts. With online tournaments, head-to-head rivalries and a world full of competitors, sports are reimagined to ignite your competitive spirit. The game learns how you and your friends compete, creating an ever-evolving network of rivals in the cloud. There's a competitor in each of us just waiting to come alive. It's You vs. the world.",
@@ -685,8 +735,11 @@ const getState = ({ getStore, getActions, setStore }) => {
 					genre: " Shooter",
 					publisher: " Activison ",
 					ratings: " Mature ",
-					photo:
+					photo1:
 						" https://www.denofgeek.com/wp-content/uploads/2020/09/call-of-duty-black-ops-cold-war-beta-dates.jpg?fit=1920%2C1080 ",
+					photo2:
+						"https://gamespot1.cbsistatic.com/uploads/screen_kubrick/1595/15950357/3726144-cod-cold-war-01.jpg",
+					photo3: "https://mp1st.com/wp-content/uploads/2020/10/black-ops-cold-war-image-3-scaled.jpg",
 					console: " PS5 ",
 					desc:
 						"The iconic Black Ops series is back with Call of Duty®: Black Ops Cold War - the direct sequel to the original and fan-favorite Call of Duty®: Black Ops. Black Ops Cold War will drop fans into the depths of the Cold War’s volatile geopolitical battle of the early 1980s. Nothing is ever as it seems in a gripping single-player Campaign, where players will come face-to-face with historical figures and hard truths, as they battle around the globe through iconic locales like East Berlin, Vietnam, Turkey, Soviet KGB headquarters and more. As elite operatives, you will follow the trail of a shadowy figure named Perseus who is on a mission to destabilize the global balance of power and change the course of history. Descend into the dark center of this global conspiracy alongside iconic characters Woods, Mason and Hudson and a new cast of operatives attempting to stop a plot decades in the making.",
@@ -698,8 +751,11 @@ const getState = ({ getStore, getActions, setStore }) => {
 					genre: " Shooter",
 					publisher: " Saber Interaction ",
 					ratings: " Mature 17+ ",
-					photo:
+					photo1:
 						"  https://images.pushsquare.com/news/2016/10/feature_what_we_want_from_red_dead_redemption_2_on_ps4/large.jpg ",
+					photo2:
+						"http://images.pushsquare.com/news/2018/06/rockstar_details_red_dead_redemption_2_special_editions_and_pre-order_bonuses/attachment/0/original.jpg",
+					photo3: "https://www.gamespace.com/wp-content/uploads/2018/11/Red-Dead-Redemption-2-17-million.jpg",
 					console: " PS5 ",
 					desc:
 						" America, 1899. Arthur Morgan and the Van der Linde gang are outlaws on the run. With federal agents and the best bounty hunters in the nation massing on their heels, the gang must rob, steal and fight their way across the rugged heartland of America in order to survive. As deepening internal divisions threaten to tear the gang apart, Arthur must make a choice between his own ideals and loyalty to the gang who raised him. Now featuring additional Story Mode content and a fully-featured Photo Mode, Red Dead Redemption 2 alsoincludes  free access to the shared living world of Red Dead Online, where players take on an array of roles to carve their own unique path on the frontier as they track wanted criminals as a Bounty Hunter, create a business as a Trader, unearth exotic treasures as a Collector or run an underground distillery as a Moonshiner and much more. ",
@@ -711,7 +767,9 @@ const getState = ({ getStore, getActions, setStore }) => {
 					genre: " Shooter",
 					publisher: " ID Software ",
 					ratings: " Mature 17+ ",
-					photo: " https://cdn.wccftech.com/wp-content/uploads/2020/01/doom_eternal_4K_art-2060x1159.jpg ",
+					photo1: " https://cdn.wccftech.com/wp-content/uploads/2020/01/doom_eternal_4K_art-2060x1159.jpg ",
+					photo2: "https://i.ytimg.com/vi/NA8tzzWcibk/maxresdefault.jpg",
+					photo3: "https://cdn.wccftech.com/wp-content/uploads/2018/08/DOOM_Eternal_6.jpg",
 					console: " PS5 ",
 					desc:
 						" Doom Eternal is a first-person shooter video game developed by id Software and published by Bethesda Softworks. The sequel to Doom (2016), and the fifth main game in the Doom series, it was released on March 20, 2020, for Windows, PlayStation 4, Stadia and Xbox One, with versions for Nintendo Switch, PlayStation 5 and Xbox Series X and Series S planned. ",
@@ -723,7 +781,10 @@ const getState = ({ getStore, getActions, setStore }) => {
 					genre: " Shooter",
 					publisher: " Bungie ",
 					ratings: " Mature ",
-					photo: " https://attackofthefanboy.com/wp-content/uploads/2020/07/halo-infinite-free-to-play.jpg ",
+					photo1: " https://attackofthefanboy.com/wp-content/uploads/2020/07/halo-infinite-free-to-play.jpg ",
+					photo2:
+						"https://cdn.gamer-network.net/2020/usgamer/Halo-Infinite-Warthog-hed.jpg/EG11/thumbnail/1920x1080/format/jpg/quality/65/halo-infinite-showcase-will-focus-on-campaign-343.jpg",
+					photo3: "https://i.ytimg.com/vi/TdLMKmKEQvE/maxresdefault.jpg",
 					console: " Xbox Series X",
 					desc:
 						"Halo Infinite is an upcoming first-person shooter game developed by 343 Industries and published by Xbox Game Studios for Microsoft Windows, Xbox One, and Xbox Series X and Series S. The sixth main entry of the Halo series and the fourteenth game overall, it continues the story of the Master Chief as the third chapter of the Reclaimer Saga, following Halo 5: Guardians (2015).",
@@ -735,7 +796,9 @@ const getState = ({ getStore, getActions, setStore }) => {
 					genre: " shooter",
 					publisher: "Publisher:WB Games",
 					ratings: " Mature ",
-					photo: "https://gearnuke.com/wp-content/uploads/2018/08/Cyberpunk-2077-1-1.jpg",
+					photo1: "https://cdn.wccftech.com/wp-content/uploads/2020/12/Cyberpunk-2077-4K-Ultra-scaled.jpg",
+					photo2: "https://nerdist.com/wp-content/uploads/2020/06/cyberpunk-art.png",
+					photo3: "https://icdn3.digitaltrends.com/image/cyberpunk-2077-hands-on-2692-2255x1269.jpg",
 					console: " PC, PS4, PS5, Xbox, OneXbox, Series X",
 					desc:
 						"Cyberpunk 2077 is an open-world, action-adventure story set in Night City, a megalopolis obsessed with power, glamor, and body modification. You play as V, a mercenary outlaw going after a one-of-a-kind implant that is the key to immortality. You can customize your character's cyberware, skill set, and playstyle, and explore a vast city where the choices you make shape the story and world around you.",
@@ -747,7 +810,9 @@ const getState = ({ getStore, getActions, setStore }) => {
 					genre: " Shooter",
 					publisher: "2K Games",
 					ratings: " Mature ",
-					photo: "https://assets.vg247.com/current/2019/07/Borderlands-3-1.jpg ",
+					photo1: "https://assets.vg247.com/current/2019/07/Borderlands-3-1.jpg ",
+					photo2: "https://static.gamespot.com/uploads/original/1552/15524586/3517158-borderlands-3-3.png",
+					photo3: "https://gamespot1.cbsistatic.com/uploads/original/1593/15930215/3549302-bl3_016.jpg",
 					console: " PC, PS4, PS5, Xbox, OneXbox, Series X",
 					desc:
 						"The original shooter-looter returns, packing bazillions of guns and an all-new mayhem-fueled adventure! Blast through new worlds and enemies as one of four brand new Vault Hunters - the ultimate treasure-seeking badasses of the Borderlands, each with deep skill trees, abilities and customization. Play solo or join with friends to take on insane enemies, score loads of loot and save your home from the most ruthless cult leaders in the galaxy.",
@@ -759,7 +824,10 @@ const getState = ({ getStore, getActions, setStore }) => {
 					genre: " Shooter",
 					publisher: "CI Games",
 					ratings: " Mature",
-					photo: "https://games.torrentsnack.com/wp-content/uploads/2016/12/Sniper-Ghost-Warrior-3-PC.jpg",
+					photo1: "https://games.torrentsnack.com/wp-content/uploads/2016/12/Sniper-Ghost-Warrior-3-PC.jpg",
+					photo2: "https://i.ytimg.com/vi/534mGJIODIQ/maxresdefault.jpg",
+					photo3:
+						"https://1.bp.blogspot.com/-lz2pk5cMxss/WSvwkLIcCeI/AAAAAAAAAKk/7nb5vKnJ3SMZK4zuqpRBm7T9Jko-LUFGQCLcB/s1600/2.jpg",
 					console: " PC, PS4, PS5, Xbox, OneXbox, Series X",
 					desc:
 						"Go behind enemy lines with the ultimate modern military shooter. Choose your own path to accomplish your missions across an unforgiven open world.Be a Sniper: Engage your targets from the long range. Factor in scope elevation, wind speed and direction, breath control and stance along with weapon and bullet choice.Be a Ghost: Stalk your enemies and eliminate them silently with a broad variety of takedowns. The advanced stealth gameplay includes drone recon and vertical navigation.Be a Warrior: Wield a wide variety of advanced weapons and modify them to suit the needs of your mission and your own personal style. Choose from assault rifles, shotguns, machine guns and even explosives.",
@@ -771,7 +839,9 @@ const getState = ({ getStore, getActions, setStore }) => {
 					genre: " Shooter",
 					publisher: "Ubisoft",
 					ratings: " ",
-					photo: "https://ewedit.files.wordpress.com/2018/12/sawlauncher_3840x2160_gold_esrb.jpg",
+					photo1: "https://cdn.mos.cms.futurecdn.net/VZQPMnwdKYJM4LJe2VZsLG.jpg",
+					photo2: "https://theubj.com/wp-content/uploads/2020/11/maxresdefault-22.jpg",
+					photo3: "https://www.pcgamesn.com/wp-content/uploads/2020/07/far_cry_6_character_1.jpg",
 					console: " PC, PS4, PS5, Xbox, OneXbox, Series X",
 					desc:
 						"Welcome to Yara, a tropical paradise frozen in time. As the dictator of Yara, Anton Castillo is intent on restoring his nation back to its former glory by any means, with his son, Diego, following in his bloody footsteps. Their oppressive rule has ignited a revolution.",
@@ -783,33 +853,28 @@ const getState = ({ getStore, getActions, setStore }) => {
 					genre: " Shooter",
 					publisher: "Square Enix",
 					ratings: " Mature",
-					photo:
+					photo1:
 						"https://cdn-prod.scalefast.com/public/assets/img/resized/squareenix-store-v3/f64f378417b7c2920553f0561f5c9010_1920_KR.jpg",
+					photo2:
+						"https://assets1.ignimgs.com/thumbs/userUploaded/2020/5/22/outridersthumb-1590165796911.jpg?width=1280",
+					photo3: "https://cdn.pressstart.com.au/wp-content/uploads/2020/02/Outriders-Preview-770x433.jpg",
 					console: " PC, PS4, PS5, Xbox, OneXbox, Series X",
 					desc:
 						"Outriders is an upcoming third-person shooter developed by People Can Fly and published by Square Enix. It is set to be released on February 2, 2021 for Microsoft Windows, PlayStation 4, PlayStation 5, Xbox One, Xbox Series X/S. It will also release on Stadia later in 2021.",
 					video: " https://www.youtube.com/embed/ED4o1WJFmDY"
 				},
-				{
-					id: 27,
-					name: " Cyberpunk 2077",
-					genre: " Sports",
-					publisher: "Publisher:WB Games",
-					ratings: " Mature ",
-					photo: "https://gearnuke.com/wp-content/uploads/2018/08/Cyberpunk-2077-1-1.jpg",
-					console: " PC, PS4, PS5, Xbox, OneXbox, Series X",
-					desc:
-						"Cyberpunk 2077 is an open-world, action-adventure story set in Night City, a megalopolis obsessed with power, glamor, and body modification. You play as V, a mercenary outlaw going after a one-of-a-kind implant that is the key to immortality. You can customize your character's cyberware, skill set, and playstyle, and explore a vast city where the choices you make shape the story and world around you.",
-					video: " https://www.youtube.com/embed/LembwKDo1Dk "
-				},
+
 				{
 					id: 13,
 					name: " Wreckfest ",
 					genre: "  Racing ",
 					publisher: " Bugbear Entertainment ",
 					ratings: " Everyone ",
-					photo:
+					photo1:
 						" https://s3.amazonaws.com/prod-media.gameinformer.com/styles/full/s3/2019/08/29/c5adb779/wreckfest.jpg ",
+					photo2: "https://static.trueachievements.com/customimages/070603.jpg",
+					photo3:
+						"https://media.playstation.com/is/image/SCEA/wreckfest-screenshot-08-ps4-us-28aug2019?$native_nt$",
 					console: " PS5 ",
 					desc:
 						" Wreckfest is a racing video game developed by Bugbear Entertainment and published by THQ Nordic. Wreckfest is described as the spiritual successor to the FlatOut series and a cross between FlatOut, Destruction Derby and cult 1989 PC racer Street Rod. A notable feature of the game engine is the use of soft-body damage modeling, which enables location-based damage that affects the driving dynamics of vehicles in a realistic fashion. After a four-year long early access phase, the Microsoft Windows version was released in June 2018, with PlayStation 4 and Xbox One versions released on August 27, 2019 after multiple delays.",
@@ -821,7 +886,11 @@ const getState = ({ getStore, getActions, setStore }) => {
 					genre: " Racing ",
 					publisher: " Electronic Arts",
 					ratings: " Teen ",
-					photo: " https://www.savegamedownload.com/wp-content/uploads/2017/11/nfs-rivals-platinum-ps4.jpg ",
+					photo1:
+						" https://vignette.wikia.nocookie.net/hudfreegaming/images/8/84/IuFqGKdS4qWvV.jpg/revision/latest?cb=20140111084413",
+					photo2: "https://images.pushsquare.com/screenshots/54464/large.jpg",
+					photo3:
+						"https://assets.pcmag.com/media/images/365469-need-for-speed-rivals-for-xbox-one.jpg?width=1000&height=563",
 					console: " PS4 ",
 					desc:
 						" Need for Speed Rivals is a racing video game developed in a collaboration between Ghost Games and Criterion Games, and published by Electronic Arts. It is the twentieth installment in the Need for Speed series and the debut title for Ghost Games, who would be established as the primary developer of the series for all subsequent non-mobile installments up until 2020. The game was released for Microsoft Windows, PlayStation 3, PlayStation 4, Xbox 360 and Xbox One in November 2013, and is the final Need for Speed game for both the PlayStation 3 and the Xbox 360. ",
@@ -833,7 +902,9 @@ const getState = ({ getStore, getActions, setStore }) => {
 					genre: " Racing ",
 					publisher: " Rainbow Studios",
 					ratings: " Everyone ",
-					photo: " https://www.teamvvv.com/wp-content/uploads/2019/02/monster-jam-steel-titans-6.jpg ",
+					photo1: " https://www.teamvvv.com/wp-content/uploads/2019/02/monster-jam-steel-titans-6.jpg ",
+					photo2: "https://thqnordic.com/sites/default/files/games/gallery/02_MJST_Feb19.jpg",
+					photo3: "https://cdn.monsterjam.com/styles/jumbotron_large/s3/2019-02/GD-Hero-v2.jpg?itok=qGxW5YZr",
 					console: "  PS4 ",
 					desc:
 						" Monster Jam Steel Titans delivers the complete Monster Jam experience for everybody to enjoy! All the trucks, stunts, stadiums, racing and massive air in one game! Play in various game modes including Stadium and outdoor Racing, various Stunt Challenges and Destruction modes! - Drive a MONSTER!",
@@ -845,7 +916,10 @@ const getState = ({ getStore, getActions, setStore }) => {
 					genre: " Racing ",
 					publisher: " Codemaster ",
 					ratings: " Teen ",
-					photo: " http://images.gamersyde.com/image_dirt_5-41991-4469_0001.jpg ",
+					photo1: " https://images.pushsquare.com/afbd7f6013fb3/dirt-5-ps4-ps5-playstation-5-1.original.jpg ",
+					photo2:
+						"https://news.xbox.com/en-us/wp-content/uploads/sites/2/2020/06/TrucksBrazil.jpg?w=940&resize=1920%2C1080",
+					photo3: "https://www.psu.com/wp/wp-content/uploads/2020/09/DiRT5-4.jpg",
 					console: " PS5 ",
 					desc:
 						" DIRT 5 is the bold new off-road racing experience created by Codemasters. Conquer stunning global routes and drive an iconic roster of cars. Experience a star-studded Career mode, four-player split-screen, the Playgrounds arena creator mode and much more! the increased focus on storytelling and its platforming sections.",
@@ -857,8 +931,10 @@ const getState = ({ getStore, getActions, setStore }) => {
 					genre: " Racing",
 					publisher: "Nacon",
 					ratings: " Everyone",
-					photo:
+					photo1:
 						"https://www.teamvvv.com/wp-content/uploads/2020/04/WRC9_Screenshots_1_New_Zealand_Ford_2_4K-1920x1080.jpg",
+					photo2: "https://www.thenerdmag.com/wp-content/uploads/2020/09/WRC-9-scaled.jpg",
+					photo3: "https://images.pushsquare.com/screenshots/108223/large.jpg",
 					console: " PC, PS4, PS5, Xbox, OneXbox, Series X",
 					desc:
 						"WRC 9 is the newest racing simulation game approved by the professional drivers of the real WRC Championship. With three brand new rallies (Kenya, Japan, and New Zealand), 15 legendary vehicles and more than 100 stages to tackle, WRC 9 is the most expansive title in the series to date. WRC 9 also features a variety of new game modes designed for the community, including a fully customizable Club system where players will be able to create their own communities, invite friends, and compete together all over the world in online championships. With the ability to play as the best drivers in the world with their official cars in the most realistic physics engine and environments yet, this is the definitive rally simulation experience.",
@@ -870,7 +946,11 @@ const getState = ({ getStore, getActions, setStore }) => {
 					genre: " Racing",
 					publisher: "Microsoft Studios",
 					ratings: " Everyone",
-					photo: "http://ksassets.timeincuk.net/wp/uploads/sites/54/2018/06/Forza-Horizon-4_Autumn-Drive.jpg",
+					photo1:
+						"http://ksassets.timeincuk.net/wp/uploads/sites/54/2018/06/Forza-Horizon-4_Autumn-Drive.jpg",
+					photo2: "https://www.pcgamesn.com/wp-content/uploads/2019/01/forza-horizon-4-player-count.jpg",
+					photo3:
+						"https://news.xbox.com/en-us/wp-content/uploads/sites/2/Forza-Horizon-4-Reviews-Drifting-Time.jpg",
 					console: " PC, PS4, PS5, Xbox, OneXbox, Series X",
 					desc:
 						"CHANGES EVERYTHING. Dynamic seasons change everything at the world's greatest automotive festival. Go it alone or team up with others to explore beautiful and historic Britain in a shared open world. Collect, modify and drive over 450 cars. Race, stunt, create and explore – choose your own path to become a Horizon Superstar. The Forza Horizon 4 Standard Edition digital bundle includes the full game of Forza Horizon 4 and the Formula Drift Car Pack for Forza Horizon 4.",
@@ -882,8 +962,10 @@ const getState = ({ getStore, getActions, setStore }) => {
 					genre: " Racing",
 					publisher: "Electronic Arts",
 					ratings: " Everyone",
-					photo:
+					photo1:
 						"https://www.gamespace.com/wp-content/uploads/2020/06/Need-for-Speed-Heat-Gets-Cross-Play.jpg",
+					photo2: "https://www.hdcarwallpapers.com/walls/need_for_speed_heat_4k-HD.jpg",
+					photo3: "https://www.gtplanet.net/wp-content/uploads/2019/10/Need-For-Speed-Heat-BMW-M3-E30.jpg",
 					console: " PC, PS4, PS5, Xbox, OneXbox, Series X",
 					desc:
 						"Hustle by day and risk it all at night in Need for Speed™ Heat, a white-knuckle racer that pits you against a city’s rogue police force as you battle your way into street racing’s elite. By day compete in the Speedhunter Showdown – a sanctioned competition where you earn bank to customize and upgrade your garage of high-performance cars. When your ride’s perfectly styled and hyper-tuned, and you’re ready to ramp up the intensity, drive out into the night where you and your crew take on the competition in illicit street races that build your reputation and grant you access to bigger races and better parts. But under the cover of darkness patrols a rogue task force looking to bring you down and swipe all you’ve earned.",
@@ -895,7 +977,10 @@ const getState = ({ getStore, getActions, setStore }) => {
 					genre: " Racing",
 					publisher: " Ubisoft",
 					ratings: " Teen",
-					photo: "http://torrentsgames.org/wp-content/uploads/2017/09/The-Crew-2-PC.jpg",
+					photo1:
+						"https://store-images.s-microsoft.com/image/apps.31595.70638597071363675.a8b8016e-27e4-4fcc-adfb-38034a85d956.49c4dc90-4c34-4c12-9ecc-c7dac687b4e3?mode=scale&q=90&h=1080&w=1920",
+					photo2: "https://assets1.ignimgs.com/2018/05/16/the-crew-2-preview-1280-1526477329360_1280w.jpg",
+					photo3: "https://i.gadgets360cdn.com/large/the-crew-2_1528752994054.jpg",
 					console: " PC, PS4, PS5, Xbox, OneXbox, Series X",
 					desc:
 						"In The Crew® 2, take on the American motorsports scene as you explore and dominate the land, air, and sea of the United States in one of the most exhilarating open worlds ever created. With a wide variety of exotic cars, bikes, boats, and planes to choose from, experience the unbridled thrill and adrenaline-pumping excitement of competing across the entire US as you test your skills in a wide range of driving disciplines. Record every heart-pounding, white-knuckle, asphalt-melting moment and share them with your friends and rivals with the simple push of a button. Fame is yours to take!",
@@ -907,8 +992,11 @@ const getState = ({ getStore, getActions, setStore }) => {
 					genre: " Racing",
 					publisher: " Microids",
 					ratings: " Mature",
-					photo:
+					photo1:
 						"https://static.gamespot.com/uploads/original/536/5360430/3076225-mr4_screenshots_e3_2016_02.jpg",
+					photo2: "https://www.thexboxhub.com/wp-content/uploads/2016/11/moto-racer-4-1.jpg",
+					photo3:
+						"https://www.pcinvasion.com/wp-content/uploads/2016/08/moto-racer-4-gets-a-release-date.jpg",
 					console: " PC, PS4, PS5, Xbox, OneXbox, Series X",
 					desc:
 						"In a world where freestyle and risk-taking dominate, impose your riding style all around the world. Impress your opponents and win races with class!Moto Racer 4 is racing game you can play on asphalt or dirt in single or multiplayer mode (up to ten players).Master drifting, wheelies, sharp turns and other techniques to earn a place on the podium!Customize and upgrade your bike! Progress through Moto Racer 4 and take in the stunning environments.From the United States to the Asia by way of the desert, Moto Racer 4 takes you through perilous, breathtaking courses at 100 miles an hour.",
@@ -916,9 +1004,27 @@ const getState = ({ getStore, getActions, setStore }) => {
 				}
 			],
 			loggedIn: false
+
+			// loggedIn: false
 		},
 		actions: {
 			// Use getActions to call a function within a fuction
+			getHomes: () => {
+				return getStore().home;
+			},
+			getHome: id => {
+				const homes = getStore().homes;
+				id = parseInt(id);
+				let home = {};
+
+				homes.forEach(element => {
+					if (id === element.id) {
+						home = element;
+					}
+				});
+				return home;
+			},
+
 			getGallerys: () => {
 				return getStore().gallerys;
 			},

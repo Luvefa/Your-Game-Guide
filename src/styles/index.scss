@@ -10,17 +10,18 @@
     box-sizing: border-box;
     // font-family: 'Cairo', sans-serif;
 }
-h1, h4{
+   
+h1, h4, h5 {
    font-family: 'Audiowide', cursive;
 }
 h2 {
   font-family: 'Audiowide', cursive;
-  padding-right: 10px;
+  padding-right: 20px;
+  padding-left: 20px
 }
 
 
 .card-text:last-child {
-    // font-family: 'Audiowide', cursive;
      font-family: 'Oswald', sans-serif;
     font-size: larger;
 }
@@ -29,119 +30,21 @@ h2 {
     
 }
 
-// .Login {
-//     height: 100vh;
-//     display: flex;
-//     align-items: center;
-//     justify-content: center;
-//     background-color: #53565A;
-// }
+
 
 form {
     text-align: center;
     width: 40%;
-    margin-top: 25%;
+    // margin-top: 15%;
     margin-left: 30%;
     margin-right: 10%;
 }
 
-// form:after {
-//     content: "";
-//     display: block;
-//     position: absolute;
-//     top: -5px;
-//     left: -5px;
-//     right: -5px;
-//     bottom:  -5px;
-//     z-index: 1;
-//     background-image: linear-gradient(to bottom right, #FFCE00, #FE4880)
-   
-    
-// }
 
-// form .form-inner {
-//     position: relative;
-//     display: block;
-//     background-color: #fff;
-//     border: solid 1px linear-gradient(to bottom right, #FFCE00, #FE4880);
-//     padding: 30px;
-//     z-index: 2;
-
-// }
-// form .form-inner h2 {
-//     color: #888;
-//     font-size: 28px;
-//     font-weight: 500;
-//     margin-bottom: 30px;
-// }
-// form .form-inner .form-group {
-//     display: block;
-//     // width: 300px;
-//     margin-bottom: 15px;
-
-
-// }
-// .form-inner .form-group label {
-//     display: block;
-//     color: #666;
-//     font-size: 12px;
-//      margin-bottom: 5px;
-//      transition: 0.4s;
-// }
-// .form-inner .form-group:focus-within label {
-//        color: #fE4880
-// }
-
-// form .form-inner .form-group input {
-//     display: block;
-//     width: 100%;
-//     padding: 10px 15px;
-//     background-color: #F8F8F8;
-//     border-radius: 8px;
-//     transition: 0.4s;
-// }
-
-// form .form-inner .form-group input:focus{
-//       box-shadow: 0px 0px 3px rgba(0,0,0, 0.2);
-// }
-// form .form-inner input[type="submit"] {
-//     display: inline-block;
-//     padding: 10px 15px;
-//     border-radius: 8px;
-//     background-image: linear-gradient(to right, #FFCE00 50%, #FFCE00 50%, #FE4880);
-//     background-size: 200%;
-//     background-position: 0%;
-//     transition: 0.4S;
-//     color: #fff;
-//     font-weight: 700;
-//     cursor: pointer;
-// }
-//  form .button input[type="submit"]:hover {
-//     background-position: 100% 0%;
-//  }
-
-// form input, button [type="submit"]:hover{
-//        background-position: 100% 0%;
-// }
-
-// input, button [type="submit"] {
-      
-//     background-image: linear-gradient(to right, #FFCE00 50%, #FFCE00 50%, #FE4880);
-//     display: inline-block;
-//     padding: 10px 15px;
-//     border-radius: 8px;
-//     background-position: 0%;
-//     background-size: 200%;
-//     transition: 0.4S;
-//     color: #fff;
-//     font-weight: 700;
-//     cursor: pointer;
-     
-// }
  
  
 .btn-1{
- width: 150px;
+//  width: 150px;
  height: 50;
  
  color: white;
@@ -157,6 +60,7 @@ form {
 .btn-1:hover {
     color: #FFCE00 ;
     cursor: pointer;
+     cursor: move;
 }
 
 .btn-1::before{
@@ -202,6 +106,7 @@ form {
 
 body{
     background-color: black;
+    //  background-image: url("https://starwarsblog.starwars.com/wp-content/uploads/2019/06/SWJFO-EAPlay-12.jpg")}
     //   background-image: url("https://blog.rebelpilgrim.com/wp-content/uploads/2017/10/7773769005_star-wars.jpg");
     // font-family: 'Nanum Myeongjo', serif;
 }
@@ -213,31 +118,73 @@ body{
     
   }
   .row {
-      margin: 0;
+    //   margin: 0;
       justify-content: center;
   }
 
   .navbar a{
       color: #fff;
       margin: 0 5px;
+      margin-left: 30px;
   }
   a{
     text-decoration: none;
     color: #fff;
 }
-.jumbotron{
-    background-color: "black";
-    color: #fff;
-  
- 
+.jumbotron-fluid{
+   
+        background-image: url("https://www.gamereactor.eu/media/12/starwars_3191273b.jpg");
+        text-align: center;
+    padding-top: 30em;
+    padding-bottom: 15em;
+    background-position: bottom;
+    margin-bottom: 0;
+    background-repeat: no-repeat;
+    background-color: black;
+    
 }
 
 .footer {
      background-image: linear-gradient(to right, #FFCE00 50%, #FFCE00 50%, #FE4880);
 }
 
-.container-fluid{
+.container-fluid{   
     padding: 0;
 }
+.container3 {
+  background-image: url("https://images4.alphacoders.com/209/209124.jpg"); 
+     padding-top: 22em;
+    padding-bottom: 15em;
+    background-position: right;
+    margin-bottom: 0;
+}
 
-  
+.container2 {
+     background-image: url("https://assets.vg247.com/current//2016/12/star-wars_battlefront.jpg");
+    padding-top: 22em;
+    padding-bottom: 15em;
+    background-position: right;
+    margin-bottom: 0;
+}
+.container-fluid1 {
+     background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/05/Amazing-HD-Black-Wallpapers.jpg");
+    padding-top: 0em;
+    padding-bottom: 15em;
+    background-position: top;
+    margin-bottom: 0;
+}
+.img {
+    width: 100%;
+    height: 100%;
+}
+
+// .hover03 figure img {
+//     -webkit-transform: scale(1.3);
+//     transform: scale(1.3);
+//     -webkit-transition: .3s ease-in-out;
+//     transition: .3s ease-in-out;
+// }
+// .hover03 figure:hover img {
+//     -webkit-transform: scale(1);
+//     transform: scale(1);
+// }

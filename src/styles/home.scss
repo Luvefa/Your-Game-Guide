@@ -10,7 +10,7 @@
   box-shadow: 0 0 0 2em rgba(#fff,0);
 }
 @keyframes pulse {
-  0% { box-shadow: 0 0 0 0 var(--hover); }
+  1% { box-shadow: 0 0 0 0 var(--hover); }
 }
 // Stack multiple shadows, one from the left, the other from the right
 .close:hover,
@@ -22,8 +22,8 @@
 // Size can also be negative; see how it's smaller than the element
 .raise:hover,
 .raise:focus {
-  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
-  transform: translateY(-0.25em);
+  box-shadow: 0 1em 1em -0.7em var(--hover);
+  transform: translateY(-0.55em);
 }
 // Animating from the bottom
 .up:hover,
